@@ -1,18 +1,11 @@
 export const msalConfig = {
     auth: {
-        clientId: "86c59355-8f99-4081-96c9-39db6e13ca08",
-
-        authority:
-            "https://login.microsoftonline.com/ba9c3522-adab-4c57-ac78-dc6131594e07",
-
-        redirectUri: "http://localhost:3000/"
-    },
-
-    cache: {
-        cacheLocation: "sessionStorage"
+        clientId: "291fadd9-b4ff-41f2-9e0e-19f92e1cda52",
+        authority: "https://login.microsoftonline.com/fe70fa16-a45c-4810-b613-80f2842db999",
+        redirectUri: "http://localhost:3000",
     }
 };
 
 export const loginRequest = {
-    scopes: ["openid", "profile", "email"]
+    scopes: ["api://97fd6d32-e248-449e-9862-b31ee3e937ec/Solicitudes.Read"]
 };
